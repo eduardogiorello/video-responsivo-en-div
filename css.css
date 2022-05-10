@@ -1,0 +1,23 @@
+.contenedor{
+    width: 50%;
+    height: 20rem;
+    position: relative;
+    background-color: blue;
+}
+
+video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: contain;
+    overflow: hidden;
+}
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
